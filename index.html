@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 25px; text-align: center; color: white; }
+    .attribution a { color:rgb(0, 30, 255); }
+
+    body{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      background-color: hsl(217, 54%, 11%);
+      font-weight: 400px;
+    }
+    .nft-card{
+      display: block;
+      margin: auto;
+      margin-top: 5%;
+      background-color: hsl(216, 50%, 16%);
+      height: 548px;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .eqi-image img{
+      height: 290px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .eqi-head h2{
+      font-size: 25px;
+      color:hsl(0, 0%, 100%);
+      padding-left: 5px;
+    }
+    .eqi-text p{
+      color: hsl(215, 51%, 70%);
+      padding-left: 5px;
+      font-size: 19px;
+    }
+    
+    .left p{
+      float: left;
+      color:hsl(0, 0%, 100%);
+
+    }
+    .right p{
+      float: right;
+      color: hsl(215, 51%, 70%);
+    }
+    
+    
+    .author img{
+      min-width: 40px;
+      height: 40px;
+      border: 1px solid white;
+      border-radius: 40px;
+      padding: 0px;
+      float: left;
+      margin-top: 10px;
+      
+    } 
+    .creator hr{
+      color:hsl(215, 51%, 70%) ;
+      background-color: hsl(215, 51%, 70%);
+      border: 1px solid hsl(215, 51%, 70%);
+    }
+    .creator p{
+      font-size: 20px;
+      color: hsl(215, 51%, 70%);
+      float: left;
+      margin-top: 20px;
+
+    }
+    .creator p span{
+      color: hsl(0, 0%, 100%);
+    }
+    
+    
+    
+    
+    
+  </style>
+</head>
+<body>
+
+  <div class="nft-card">
+    <div class="eqi-image">
+      <img src="images/image-equilibrium.jpg" alt="image of equilibrium">
+    </div>
+    <div class="eqi-head">
+      <h2>Equilibrium #3429</h2>
+    </div>
+    <div class="eqi-text">
+      <p>Our Equilibrium collection promotes
+        <br> balance and calm.
+      </p>
+    </div>
+    <div class="container">
+      <div class="left">
+        <p><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>&nbsp;&nbsp;0.041ETH</p>
+
+      </div>
+      <div class="right">
+        <p><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>&nbsp;3 days left</p>
+
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <div class="creator">
+      <hr>
+      <div class="author">
+        <img src="images/image-avatar.png" alt="image of creator"><p>&nbsp;&nbsp;&nbsp;Creation of <span>Jules Wyvern</span></p>
+      </div>
+
+    </div>
+   
+
+
+  </div>
+  <br>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yatish Patil</a>.
+  </div>
+</body>
+</html>
